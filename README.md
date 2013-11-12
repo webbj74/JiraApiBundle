@@ -67,7 +67,7 @@ $projectService->getAll();
 
 // Search for a issue in the JiraApiBundle\Service\SearchService
 $searchService = $this->get('jira_api.search');
-$searchService->getAll(
+$searchService->search(
     array(
         'jql' => 'assignee=fred+order+by+duedate',
     )
