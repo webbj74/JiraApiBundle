@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a44b6c6f453befd89f2a4e23eb8b4386",
+    "hash": "34172e0271572c1513c868ab178d781f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -413,21 +413,21 @@
         },
         {
             "name": "guzzle/guzzle",
-            "version": "v3.5.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "e97207d07d0385eac269a976628b7a5f9eeb4e07"
+                "url": "https://github.com/guzzle/guzzle3.git",
+                "reference": "2be45eff422162fea0b1cf5f2f62987409789270"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/e97207d07d0385eac269a976628b7a5f9eeb4e07",
-                "reference": "e97207d07d0385eac269a976628b7a5f9eeb4e07",
+                "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/2be45eff422162fea0b1cf5f2f62987409789270",
+                "reference": "2be45eff422162fea0b1cf5f2f62987409789270",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
-                "php": ">=5.3.2",
+                "php": ">=5.3.3",
                 "symfony/event-dispatcher": ">=2.1"
             },
             "replace": {
@@ -460,19 +460,19 @@
                 "phpunit/phpunit": "3.7.*",
                 "psr/log": "1.0.*",
                 "symfony/class-loader": "*",
-                "zendframework/zend-cache": "2.0.*",
-                "zendframework/zend-log": "2.0.*"
+                "zendframework/zend-cache": "<2.3",
+                "zendframework/zend-log": "<2.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.5-dev"
+                    "dev-master": "3.8-dev"
                 }
             },
             "autoload": {
                 "psr-0": {
-                    "Guzzle\\Tests": "tests/",
-                    "Guzzle": "src/"
+                    "Guzzle": "src/",
+                    "Guzzle\\Tests": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -501,7 +501,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2013-05-13 20:17:47"
+            "time": "2014-03-19 04:39:36"
         },
         {
             "name": "psr/log",
